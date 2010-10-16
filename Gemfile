@@ -6,6 +6,8 @@ gem 'rails', '3.0.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql'
+gem "nifty-generators"
+
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -28,3 +30,4 @@ gem 'mysql'
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem "mocha", :group => :test

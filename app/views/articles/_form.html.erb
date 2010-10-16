@@ -1,0 +1,16 @@
+<%= form_for @article do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :written_on %><br />
+    <%= f.date_select :written_on %>
+  </p>
+  <p>
+    <%= f.label :article_content %><br />
+    <%= f.text_area :article_content %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
